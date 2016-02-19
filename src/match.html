@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>炒股比赛</title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+
+        body {
+            background: #f7f7f7;
+        }
+
+        ul {
+            margin: 0;
+            padding: 8px;
+        }
+
+        .match {
+            padding: 10px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 3px;
+        }
+
+        .match img {
+            width: 64px;
+        }
+
+        .match .info {
+            padding-left: 11px;
+        }
+
+        .match .name {
+            margin-top: 5px;
+        }
+
+        .match .people {
+            font-size: .8em;
+        }
+
+        .match .people .count {
+            color: #ff8217;
+        }
+
+        .match .awards {
+            margin-top: 1px;
+        }
+
+        .match .awards .mark {
+            font-size: .7em;
+            color: #f7f7f7;
+            background: #ff8217;
+            padding: 1px 4px;
+            border-radius: 8px;
+        }
+
+        .match .desc {
+            margin-top: 6px;
+            font-size: .9em;
+            line-height: 1.1em;
+        }
+
+        .match .other {
+            margin-top: 5px;
+            font-size: .7em;
+            color: #aeaeae;
+        }
+
+        .grid {
+            display: -webkit-flex;
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-flex-flow: row wrap;
+        }
+
+        .grid .grid-cell {
+            display: -webkit-flex;
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-flex-flow: row wrap;
+            -webkit-flex: 1;
+            flex: 1;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .grid > .grid-cell.auto {
+            box-flex: auto;
+            -webkit-flex: auto;
+            flex: auto;
+
+        }
+
+        .grid > .grid-cell.none {
+            -webkit-box-flex: initial;
+            box-flex: initial;
+            -webkit-flex: initial;
+            flex: initial;
+        }
+
+        .center {
+            text-align: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+
+        }
+
+        .left {
+            text-align: left;
+            -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+        }
+
+        .right {
+            text-align: right;
+            -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li class="match grid">
+        <div class="grid-cell none">
+            <img src="assets/match_logo.jpg"/>
+        </div>
+        <div class="info grid-cell">
+            <div>
+                <div class="grid">
+                    <div class="name grid-cell">我是短线王17期</div>
+                    <div class="people grid-cell right"><a class="count">3852</a>人</div>
+                </div>
+                <div class="awards"><a class="mark">有奖</a></div>
+                <div class="desc">完整交易次数不能少于3次,每只股票持有不得超过5天.第一名奖励精美礼品一份.</div>
+                <div class="other grid">
+                    <div class="date grid-cell">16-01-21至16-02-19</div>
+                    <div class="creator grid-cell right">创建人:优顾仟仟</div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="match grid">
+        <div class="grid-cell none">
+            <img src="assets/match_logo.jpg"/>
+        </div>
+        <div class="info grid-cell">
+            <div>
+                <div class="grid">
+                    <div class="name grid-cell">我是短线王17期</div>
+                    <div class="people grid-cell right"><a class="count">3852</a>人</div>
+                </div>
+                <div class="awards"><a class="mark">有奖</a></div>
+                <div class="desc">完整交易次数不能少于3次,每只股票持有不得超过5天.第一名奖励精美礼品一份.</div>
+                <div class="other grid">
+                    <div class="date grid-cell">16-01-21至16-02-19</div>
+                    <div class="creator grid-cell right">创建人:优顾仟仟</div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+</body>
+</html>
