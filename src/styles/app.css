@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.tip {
+    padding: 8px 10px;
+    font-size: .9em;
+    background: #f7f7f7;
+}
+
+.stock-content-vertical {
+    padding: 10px 0;
+    font-size: .9em;
+}
+
+.stock-content-vertical .stock-info {
+    padding: 3px 0;
+}
+
+.stock-content-vertical .stock-index {
+    font-size: 1.4em;
+}
+
+.stock-content-vertical .stock-change {
+    font-size: .8em;
+}
+
+.stock-content-horizontal {
+    padding: 7px 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.stock-content-horizontal .stock-code {
+    margin-top: 6px;
+    font-size: .9em;
+}
+
+.stock-content-horizontal .stock-index, .stock-content-horizontal .stock-change {
+    font-size: 1.1em;
+}
+
+.grid {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+}
+
+.grid .grid-cell {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+}
+
+.left {
+    text-align: left;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.right {
+    text-align: right;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.green {
+    color: #13bb37;
+}
+
+.red {
+    color: #fa2222;
+}

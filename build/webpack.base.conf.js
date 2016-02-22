@@ -29,7 +29,11 @@ module.exports = {
         loaders: [
             {
                 test: /\.js$/,
-                loaders: ['jsx?harmony']
+                exclude: /node_modules/,
+                loader: 'babel',
+                query: {
+                    presets: ['react', 'es2015']
+                }
             },
             {
                 test: /\.json$/,
