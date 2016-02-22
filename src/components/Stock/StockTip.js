@@ -13,12 +13,12 @@ class BlockStockTip extends React.Component {
 
     render() {
         return (
-            <li class="grid-cell stock-content-vertical center">
-                <div class="center">
-                    <div class="stock-info stock-name">通信以及设备</div>
-                    <div class="stock-info stock-index green">+0.77%</div>
-                    <div class="stock-info stock-leader">长江通信</div>
-                    <div class="stock-info stock-change">
+            <li className="grid-cell stock-content-vertical center">
+                <div className="center">
+                    <div className="stock-info stock-name">通信以及设备</div>
+                    <div className="stock-info stock-index green">+0.77%</div>
+                    <div className="stock-info stock-leader">长江通信</div>
+                    <div className="stock-info stock-change">
                         <a>20.08</a>
                         <a>+10.03%</a>
                     </div>
@@ -36,15 +36,15 @@ class RowStockTip extends React.Component {
 
     render() {
         return (
-            <li class="grid stock-content-horizontal">
-                <div class="grid-cell left">
+            <li className="grid stock-content-horizontal">
+                <div className="grid-cell left">
                     <div>
-                        <div class="stock-name">{this.props.name}</div>
-                        <div class="stock-code">{this.props.code}</div>
+                        <div className="stock-name">{this.props.name}</div>
+                        <div className="stock-code">{this.props.code}</div>
                     </div>
                 </div>
-                <div class="grid-cell stock-info stock-index right red">8.09</div>
-                <div class="grid-cell stock-info stock-change right red">+10.07%</div>
+                <div className="grid-cell stock-info stock-index right red">8.09</div>
+                <div className="grid-cell stock-info stock-change right red">+10.07%</div>
             </li>
         );
     }

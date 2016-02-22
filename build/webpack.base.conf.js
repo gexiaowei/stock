@@ -36,6 +36,11 @@ module.exports = {
                 }
             },
             {
+                test: /\.css$/,
+                //exclude: /\.useable\.css$/,
+                loader: "style!css"
+            },
+            {
                 test: /\.json$/,
                 loader: 'json'
             },

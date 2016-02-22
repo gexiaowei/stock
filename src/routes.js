@@ -5,8 +5,8 @@
  * copyright 2014-2016, gandxiaowei@gmail.com all rights reserved.
  */
 
+import React from 'react';
 import {Route} from 'react-router';
-
 import {BlockStockTip, RowStockTip} from './components/Stock/StockTip'
 
 export default (
