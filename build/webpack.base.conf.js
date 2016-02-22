@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     entry: {
-        app: './src/main.js'
+        app: './src/entry.js'
     },
     output: {
         path: path.resolve(__dirname, '../dist/static'),
@@ -37,7 +37,6 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                //exclude: /\.useable\.css$/,
                 loader: "style!css"
             },
             {
