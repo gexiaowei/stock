@@ -6,4 +6,4 @@
  */
 require('./styles/app.css');
 
-require('./main.js');
+require('./index.js');
