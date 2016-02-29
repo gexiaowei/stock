@@ -7,10 +7,11 @@
 
 import React from 'react';
 import {Route} from 'react-router';
-import {BlockStockTip, RowStockTip} from './components/Stock/StockTip'
+
+import StockList from './components/StockList';
 
 export default (
-    <Route path="/" component={BlockStockTip}>
+    <Route path="/" component={StockList}>
 
     </Route>
 );
